@@ -1,5 +1,5 @@
 body {
-    background-color: #4316ae;
+    background-color: #a19fa2;
     font-family: sans-serif;
 }
 
@@ -10,7 +10,7 @@ h1 {
 }
 
 h2 {
-    margin: 0 0 5px;
+    margin: 0 0 10px;
     font-size: 35px;
 }
 
@@ -27,40 +27,55 @@ select {
     margin: 60px auto;
     background: white;
     padding: 30px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgb(221, 151, 46) 0px 7px 29px 0px;
     border-radius: 10px;
 }
 
 .city {
-    display: flex;
     margin: 10px 0;
     justify-content: space-between;
     padding: 30px 0;
     border-bottom: 1px rgba(0, 0, 0, 0.2);
+    
 }
 
 .date {
-    opacity: 0.3;
+    opacity: 0.6;
 }
 
 .time {
     font-size: 25px;
     font-weight: bold;
+    float: right;
+    line-height: 2px;
+       
 }
 
-.time small {
-    font-size: 24px;
-    vertical-align: middle;
-    line-height: 48px;
-}
 
 .time-card.selected{
     max-width: 500px;
     margin:0 auto;
-    padding:40px;
+    
+
 }
-footer {
+
+.home-link{
+    font-size:15px;
+    font-weight:bold;
+    color:rgb(137, 91, 6);
+    line-height:50px;
+}
+
+a{
+    color:rgb(137, 91, 6);
+
+
+}
+.footer {
     text-align: center;
-    font-size: 18px;
-    color: rgba(0, 0, 0, 0.8);
+    font-size: 15px;
+
+    
+
+   
 }

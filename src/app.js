@@ -2,6 +2,7 @@ const defaultLocations = [
     { id: 'london', timezone: 'Europe/London'},
     { id: 'bangkok', timezone: 'Asia/Bangkok'},
     { id: 'new_york', timezone: 'America/New_York'}
+    
 ];
 
 function getTimeForTimezone(timezone){
@@ -71,7 +72,8 @@ function getCityNameFromTimezone (timezone) {
     const cityMap = {
         'City_1':'London',
         'City_2':'Bangkok',
-        'City_3':'New_York'
+        'City_3':'New_York',
+        
     };
     return cityMap[timezone] || timezone.split('/').pop().replace('_',' ');
 }
