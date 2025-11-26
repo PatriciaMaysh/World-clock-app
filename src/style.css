@@ -31,10 +31,8 @@ select {
     border-radius: 10px;
 }
 
-.city {
-    margin: 10px 0;
+#selectedCity {
     justify-content: space-between;
-    padding: 30px 0;
     border-bottom: 1px rgba(0, 0, 0, 0.2);
     
 }
@@ -46,8 +44,8 @@ select {
 .time {
     font-size: 25px;
     font-weight: bold;
-    float: right;
-    line-height: 2px;
+    float:right;
+    
        
 }
 
@@ -71,9 +69,10 @@ a{
 
 
 }
-.footer {
+footer {
     text-align: center;
     font-size: 15px;
+    padding:200px;
 
     
 
